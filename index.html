@@ -1,0 +1,1082 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/cb20767dda.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> -->
+
+  </head>
+  <body>
+    <style>
+        h1, h2, h3, h4, h5, h6, p, span{
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            z-index: 2;
+            background-color: transparent !important;
+        }
+        .navbar .nav-link{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 28px;
+            /* identical to box height, or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #FFFFFF;
+            
+        }
+        .navbar .btn-order{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: -0.3px;
+            color: #FFFFFF;
+            background-color: #982B8F;
+            padding: 10px 30px;
+            border-radius: 30px;
+        }
+        .btn-order span{
+            font-size: 18px;
+        }
+        .section-1{
+            background-image: url("Mask\ group.png");
+            padding: 250px 100px;
+            height: 700px!important;
+            background-size: cover;
+            width: 100%;
+            background-position: center center;
+            position: relative;
+            z-index: 1;
+        }
+        .section-1 h1{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 64px;
+            /* or 107% */
+            letter-spacing: -2px;
+            color: #FFFFFF;
+            width: 70%;
+        }
+        .section-1 p{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 40px;
+            /* identical to box height, or 118% */
+
+            letter-spacing: -0.5px;
+
+            color: #FFFFFF;
+        }
+        .section-2{
+            text-align: center;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .section-2 h1{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 48px;
+            /* or 109% */
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: -0.5px;
+
+            color: #006F97;
+        }
+        .section-2 p{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            /* or 158% */
+
+            text-align: center;
+            letter-spacing: -0.3px;
+
+            color: #44546A;
+        }
+        .section-3{
+            margin-bottom: 50px;
+        }
+        .section-3 img{
+            width: 100%;
+            
+        }
+        .section-3 span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #44546A;
+        }
+        .section-3 h1{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            /* or 118% */
+            letter-spacing: -0.5px;
+            color: #1E3362;
+            margin-top:50px;
+        }
+        .section-3 p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+
+            letter-spacing: -0.3px;
+
+            color: #44546A;
+        }
+        .section-4 img{
+            width: 100%;
+            margin-top: 50px;;
+        }
+        .section-4 h1{
+            /* font-family: 'Roboto', sans-serif; */
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            /* or 118% */
+
+            letter-spacing: -0.5px;
+
+            color: #1E3362;
+            margin-top: 60px;
+        }
+        .section-4 p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+
+            letter-spacing: -0.3px;
+
+            color: #44546A;
+        }
+        .section-4 span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* identical to box height, or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #44546A;
+        }
+        .section-5{
+            text-align: center;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        .section-5 h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -0.5px;
+            color: #006F97;
+        }
+        .section-5 span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: -0.3px;
+            color: #44546A;
+        }
+        .section-6{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .section-6 p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+            padding: 20px;
+            text-align: center;
+            letter-spacing: -0.3px;
+
+        }
+        .section-7{
+            text-align: center;
+            background: linear-gradient(90deg, #1E3362 0%, #006F97 100%);
+            padding: 80px;
+        }
+        .section-7 h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            /* identical to box height, or 118% */
+
+            text-align: center;
+            letter-spacing: -0.5px;
+
+            color: #FFFFFF;
+        }
+        .section-7 a{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: -0.3px;
+            color: #FFFFFF;
+            background-color: #982B8F;
+            padding: 10px 30px;
+            border-radius: 30px;
+
+        }
+        /* .form-section{
+
+        } */
+        .newsletter-form {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 50px;
+            
+            }
+
+            .newsletter-form input[type="email"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            font-size: 16px;
+            }
+
+            .newsletter-form button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #982B8F;
+            color: #fff;
+            border: none;
+            border-radius: 0 20px 20px 0;
+            font-size: 16px;
+            cursor: pointer;
+            }
+
+            .newsletter-form button[type="submit"]:hover {
+            background-color: #555;
+            }
+        .footer{
+            padding:50px
+        }
+        .footer h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+
+            letter-spacing: -0.27px;
+
+            color: #1E3362;
+        }
+        .section-7 .arrow::after {
+        content: "\2192"; /* Unicode code point for right arrow symbol */
+        margin-left: 5px;
+        font-size: 1.2em;
+        color: #fff;
+        }
+        .navbar .arrow::after {
+        content: "\2192"; /* Unicode code point for right arrow symbol */
+        margin-left: 5px;
+        font-size: 1.2em;
+        color: #fff;
+        }
+        .footer a{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 28px;
+            /* identical to box height, or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #1E3362;
+        }
+        .footer .visit{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* identical to box height, or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #982B8F;
+        }
+        .footer .arrow::after {
+        content: "\2192"; /* Unicode code point for right arrow symbol */
+        margin-left: 5px;
+        font-size: 20px;
+        color: #982B8F;
+        }
+        .footer span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* identical to box height, or 175% */
+
+            letter-spacing: -0.27px;
+
+            color: #44546A;
+        }
+        .footer #center-col{
+            text-align: center;
+        }
+        .footer #right-col{
+            text-align: end;
+        }
+        .footer #right-col .fa-brands{
+            background-color:#982B8F;
+            color:#fff;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .mobile-view{
+            display: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .section-1 h1{
+                font-size: 35px;
+                line-height: 40px;
+                width:100%;
+                text-align: left;
+            }
+            .section-1{
+                padding: 60px 20px;
+               
+            }
+            .navbar{
+                position: relative;
+                
+                background-position: center left;
+            }
+            
+            .section-1 p{
+                font-size: 30px;
+                line-height: 30px;
+                text-align: left;
+            }
+            .section-2{
+                width: 100%;
+                padding: 10px;
+            }
+            .section-2 h1{
+                font-size: 30px;
+                line-height: 35px
+            }
+            .section-3 h1{
+                text-align: center;
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .section-3 p{
+                text-align: center;
+            }
+            .section-4 h1{
+                text-align: center;
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .section-4 p{
+                text-align: center;
+            }
+            .section-5{
+                width: 100%;
+                margin-top: 50px;
+            }
+            .section-5 h1{
+                font-size: 30px;
+                line-height: 35px;
+                margin-bottom: 20px;
+            }
+            .section-7{
+                padding: 30px;
+            }
+            .footer{
+                padding: 35px 20px;
+            }
+            .newsletter-form{
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .footer #center-col{
+                text-align: start;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+            }
+            .footer #right-col{
+                text-align: start;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .mobile-view #visit{
+                text-align: center!important;
+            }
+            .footer #right-col{
+                text-align: center!important;
+            }
+            /* .navbar .nav-link{
+                color:#000;
+            } */
+
+												.navbar .btn-order {
+													    font-size: 12px;
+													    padding: 5px 12px; 
+													}
+        }
+        @media only screen and (max-width: 768px) {
+            .navbar{
+                position: absolute;
+                background-color: #982B8F!important;
+                background-position: center left;
+            }
+           
+            .section-1{
+                /* height: 380px!important; */
+                background-position: center right;
+                padding:20px 20px;
+
+            }
+            .section-1 h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 55px;
+                /* or 122% */
+
+                letter-spacing: 1.5px;
+
+                color: #FFFFFF;
+            }
+            .section-1 p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 34px;
+                line-height: 40px;
+                /* or 118% */
+
+                letter-spacing: -0.5px;
+
+                color: #FFFFFF;
+            }
+            .section-2 h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 44px;
+                /* or 122% */
+
+                text-align: center;
+                letter-spacing: 0.5px;
+
+                color: #006F97;
+            }
+            .section-2 p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                /* or 167% */
+
+                text-align: center;
+                letter-spacing: -0.3px;
+
+                color: #44546A;
+            }
+            .section-2{
+                width: 100%;
+                padding: 20px 20px;
+                margin-bottom: 0;
+            }
+            .section-4 img{
+                margin-top: 0;
+            }
+            .section-3 h1{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 34px;
+                line-height: 40px;
+                /* or 118% */
+
+                text-align: center;
+                letter-spacing: -0.5px;
+
+                color: #1E3362;
+                }
+                .section-3 p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 38px;
+                    /* or 158% */
+
+                    text-align: center;
+                    letter-spacing: -0.3px;
+
+                    color: #44546A;
+                }
+                .section-4 h1{
+                    font-style: normal;
+                font-weight: 500;
+                font-size: 34px;
+                line-height: 40px;
+                /* or 118% */
+
+                text-align: center;
+                letter-spacing: -0.5px;
+
+                color: #1E3362;
+                }
+                .section-4 p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 38px;
+                    /* or 158% */
+
+                    text-align: center;
+                    letter-spacing: -0.3px;
+
+                    color: #44546A;
+                }
+                .section-5{
+                    width: 100%;
+                    padding: 20px;
+                    margin-top: 0;
+                }
+                .section-5 h1{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    /* or 122% */
+
+                    text-align: center;
+                    letter-spacing: 0.5px;
+
+                    color: #006F97;
+                }
+                .section-5 span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 38px;
+                    /* identical to box height, or 158% */
+
+                    text-align: center;
+                    letter-spacing: -0.3px;
+
+                    color: #44546A;
+                }
+                .section-6{
+                    width: 60%;
+                    margin: auto;
+                }
+                .nav {
+                display: flex;
+                justify-content: center;
+                }
+
+                .nav ul {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                }
+
+                .nav li {
+                margin: 0 10px;
+                }
+
+                .nav a {
+                text-decoration: none;
+                color: black;
+                }
+                .footer{
+                    text-align: center;
+                }
+                .nav a {
+                    padding:10px;
+                }
+                .newsletter-form{
+                    display: grid;
+                    justify-content:center;
+                }
+                .newsletter-form input[type="email"]{
+                    border-radius: 30px;
+                    padding: 10px 100px 10px 30px;
+                }
+                .newsletter-form button[type="submit"]{
+                    border-radius: 30px;
+                    padding: 10px 100px;
+                }
+                .footer h1{
+                    margin-top: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: -0.27px;
+
+                    color: #1E3362;
+                }
+                .footer .subscribing{
+                    margin-top: 50px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    /* identical to box height, or 175% */
+
+                    text-align: center;
+                    letter-spacing: -0.27px;
+
+                    color: #44546A;
+                }
+                .mobile-view #visit{
+                    text-align: start;
+                }
+                .desktop-view{
+                    display: none;
+                }
+                .mobile-view{
+                    display: block;
+                }
+                .years{
+                    padding-top: 50px;
+                }
+            
+        }
+
+								/* navbar */
+
+								.navbar {
+    background: #444;
+    transition: all .6s;
+    backface-visibility: hidden;
+    box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.5);
+}
+ 
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+ 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+ 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+ 
+.navbar-dark .navbar-toggler {
+    border-color: #444;
+}
+ 
+.navbar-dark .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+}
+ 
+.navbar-dark .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+ 
+.navbar-dark .navbar-toggler:hover span,
+.navbar-dark .navbar-toggler:focus span {
+    background: #ccc;
+}
+ 
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+ 
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+ 
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+ 
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
+ 
+.navbar-brand img{
+    width: 120px;
+    
+   
+}
+
+.navbar-dark .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+ 
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+ 
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
+    </style>
+
+
+							<nav class="navbar navbar-dark fixed-top py-3">
+								<div class="container w-100 d-flex justify-content-between bg-primary relative">
+
+
+												<a class="navbar-brand" href="#"><img src="TriLink_BioTechnologies_logo-white 1.svg" alt="" srcset=""></a>
+												<div class="bg-success d-flex align-items-center">
+															<a class="btn-order mr-3 " href="#">Order Today! <span class="arrow"></span></a>
+														
+														<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+																		<span></span>
+																		<span></span>
+																		<span></span>
+														</button>
+												</div>
+
+												<div class="collapse navbar-collapse" id="navbarNav">
+													<ul class="navbar-nav mr-auto">
+															<li class="nav-item active">
+																	<a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+															</li>
+															<li class="nav-item">
+																	<a class="nav-link" href="#">Products</a>
+															</li>
+															<li class="nav-item">
+																			<a class="nav-link" href="#">Resources</a>
+															</li>
+															<li class="nav-item">
+																			<a class="nav-link" href="#">About</a>
+															</li>
+															<li class="nav-item">
+																			<a class="nav-link" href="#">Careers</a>
+															</li>
+															<li class="nav-item">
+																			<a class="nav-link" href="#">Contact</a>
+															</li>
+															
+													</ul>
+													
+												</div>
+										
+
+								</div>
+							</nav>
+
+    		<!-- <nav class="navbar navbar-expand-lg bg-transparent shadow-none">
+        <a class="navbar-brand" href="#"><img src="TriLink_BioTechnologies_logo-white 1.svg" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+           
+          </ul>
+          <a class="btn-order" href="#">Order Today! <span class="arrow"></span></a>
+        </div>
+       
+      </nav> -->
+
+      <!--first section  -->
+      
+      <div class="section-1 d-flex align-items-center flex-wrap justify-content-start">
+        <h1>25 years of innovating mRNA and we’ve done it again.</h1>
+        <p>CleanCap M6 – the newest cap analog in the portfolio</p>
+      </div>
+      <!-- end first section -->
+
+      <!-- second section -->
+        <div class="section-2">
+            <h1>The #1 capping strategy for mRNA translation CleanCap M6 analog increases protein expression by 30%+</h1>
+            <p>From the first CleanCap analog launched in 2017, TriLink has been continuing to improve on its revolutionary capping technology. With the introduction of the CleanCap® M6 technology, we have combined the modification of 3’OMe on the m7-Guanosine and the additional methyl modification on the +1 Adenosine, to help improve mRNA potency with the highest protein expression of any CleanCap® analog yet.</p>
+        </div>
+      <!-- end second section -->
+
+      <!-- third section -->
+      <div class="section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <h1>The #1 capping strategy for mRNA translation CleanCap M6 analog increases protein expression by 30%+</h1>
+                    <p>From the first CleanCap analog launched in 2017, TriLink has been continuing to improve on its revolutionary capping technology. With the introduction of the CleanCap® M6 technology, we have combined the modification of 3’OMe on the m7-Guanosine and the additional methyl modification on the +1 Adenosine, to help improve mRNA potency with the highest protein expression of any CleanCap® analog yet.</p>
+                </div>
+                <div class="col-lg">
+                    <img src="Group 644.png" alt="" sizes="" srcset="">
+                    <!-- <span>Performance of FLuc mRNA in an LNP-formulated, tail vein delivered mouse model. 1 mg/kg dose per group. Luciferase activity, as photons per second, is measured after luciferin injection. The difference between groups is cap analog structure. All other variables are controlled.</span> -->
+                </div>
+            </div>
+        </div>
+       </div>
+      <!-- end third section -->
+
+      <!-- fourt section -->
+      <div class="section-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <img src="Group 637.png" alt="" sizes="" srcset="">
+                    <!-- <span>Hours post FLuc mRNA-LNP infusion</span> -->
+                </div>
+                <div class="col-lg">
+                    <h1>The #1 capping strategy for mRNA translation CleanCap M6 analog increases protein expression by 30%+</h1>
+                    <p>From the first CleanCap analog launched in 2017, TriLink has been continuing to improve on its revolutionary capping technology. With the introduction of the CleanCap® M6 technology, we have combined the modification of 3’OMe on the m7-Guanosine and the additional methyl modification on the +1 Adenosine, to help improve mRNA potency with the highest protein expression of any CleanCap® analog yet.</p>
+                </div>
+               
+            </div>
+        </div>
+       </div>
+      <!-- end fourt section -->
+
+      <!-- fifth section -->
+      <div class="section-5">
+       
+        <h1>TriLink has revolutionized mRNA capping strategies with its one-pot CleanCap® capping solutions generating the optimal Cap1 structure with more than 95% efficiency. </h1>
+        <span>This co-transcriptional capping process:</span>
+       
+      </div>
+      <!-- end fifth section -->
+
+      <!-- six section -->
+     
+      <div class="container">
+        <div class="section-6">
+        <div class="row">
+            <div class="col-lg">
+                <img src="Group 640.svg" alt="" srcset="">
+                <p>Shortens therapeutic mRNA manufacturing process time per batch by nearly a week compared to enzymatic capping.</p>
+            </div>
+            <div class="col-lg">
+                <img src="Group 638.svg" alt="" srcset="">
+                <p>Has demonstrated a reduction in overall manufacturing costs 20-40% lower than other capping methods.</p>
+            </div>
+            <div class="col-lg">
+                <img src="Asset 1 10.svg" alt="" srcset="">
+                <p>Allows you to accelerate product development deadlines and 
+                    cost-saving targets.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!-- end six section -->
+
+      <!-- seven section -->
+      <div class="section-7">
+        <h1>Try the CleanCap M6 capping technology today!</h1><br>
+        <a href="http://">Order today! <span class="arrow"></span> </a>
+      </div>
+      <!-- end seven section -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            
+           <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <img src="TriLink_BioTechnologies_logo 1.svg" alt="" sizes="" srcset="">
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                          </ul>
+                    </div>
+                    <div class="col-lg">
+                        <div class="form-section">
+                        <h1>Join our Newsletter</h1>
+                        <form action="your-processing-script.php" method="POST" class="newsletter-form">
+                            
+                                <input type="email" name="email" placeholder="Enter your email address" required><br>
+                                <button type="submit">Subscribe</button>
+                            
+
+                          </form>
+                        <span class="subscribing">By subscribing to agree to lorem ipsum dolor sit amet consectetur.</span>
+                    </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="desktop-view">
+                    <div class="row">
+                        <div class="col-sm" >
+                            <a class="visit" href="http://">Visit Maraval LifeSciences <span class="arrow"></span></a>
+                        </div>
+                        <div class="col-sm" id="center-col">
+                            <span id="year"></span><span>TriLink BioTechnologies. Privacy Policy |  Site Map</span>
+                        </div>
+                        <div class="col-sm" id="right-col">
+                            <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-view">
+                    <div class="row">
+                    <div class="col-sm" id="visit">
+                        <a class="visit" href="http://">Visit Maraval LifeSciences <span class="arrow"></span></a>
+                    </div>
+                    <div class="col-sm" id="right-col">
+                            <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    
+                    </div>
+                    <div class="years">
+                        <span id="years"></span><span>TriLink BioTechnologies. Privacy Policy |  Site Map</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script>
+        var today = new Date();
+        var year = today.getFullYear();
+        document.getElementById("year").innerHTML = year;
+      </script>
+      <script>
+        var today = new Date();
+        var year = today.getFullYear();
+        document.getElementById("years").innerHTML = year;
+      </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
